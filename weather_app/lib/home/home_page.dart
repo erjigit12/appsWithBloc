@@ -72,7 +72,6 @@ class WeatherSuccessWidget extends StatelessWidget {
         Text(weatherResponce.main.feelsLike.toString()),
         Text(weatherResponce.main.tempMax.toString()),
         Text(weatherResponce.main.tempMin.toString()),
-        const Text('Mamarasulov Erjigit'),
       ],
     );
   }
