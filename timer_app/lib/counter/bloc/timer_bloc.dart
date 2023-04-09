@@ -10,8 +10,8 @@ import 'package:timer_clone/tickers/ticker.dart';
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
   final Ticker _ticker;
   static const int _duration = 180;
-
   StreamSubscription<int>? _tickerSubscription;
+
   TimerBloc({required Ticker ticker})
       : _ticker = ticker,
         super(const TimerInitial(_duration)) {
